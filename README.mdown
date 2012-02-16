@@ -1,0 +1,33 @@
+Watch only detached
+===================
+
+Welcome to the project page for the *Watch only detached* ZNC module!
+
+
+What is it?
+-----------
+
+Watch only detached is a module for ZNC which modifies the behavior of the included watch module by only scanning for keywords when the user is disconnected from the bouncer.
+
+
+Prerequisites
+-------------
+
+In order to use it you have to have the ZNC IRC bouncer installed. You can download it from the [project page](http://wiki.znc.in/ZNC) or the [github repository](https://github.com/znc/znc).
+
+
+Instalation
+-----------
+
+1. Download the source file.
+2. Compile the module by running *znc-buildmod watch_only_detached.cpp* ; znc-buildmod can be found in the bin folder of your ZNC installation (for example ~/znc/bin).
+3. Copy the *watch_only_detached.so* file to either ~/.znc/modules or ~/znc/lib/znc/
+4. Activate the module by typing */znc loadmod watch_only_detached* in your IRC client.
+
+
+Usage
+-----
+
+To add a watch entry all you need to type is /msg *watch_only_detached add * * *%nick* to watch all the mentions of your IRC nickname.
+
+You can also type /msg *watch_only_detached help for a list of commands and you can visit the [watch module page](http://wiki.znc.in/Watch) for other command examples.
