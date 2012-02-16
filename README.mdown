@@ -31,3 +31,9 @@ Usage
 To add a watch entry all you need to type is /msg \*watch_only_detached add \* \* \*%nick\* to watch all the mentions of your IRC nickname.
 
 You can also type /msg *watch_only_detached help for a list of commands and you can visit the [watch module page](http://wiki.znc.in/Watch) for other command examples.
+
+
+To do
+-----
+
+Add the option to toggle between watching only when the user is detached and watching all the time and merge with the official watch ZNC module.
