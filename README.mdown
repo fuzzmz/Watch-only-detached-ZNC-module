@@ -3,6 +3,10 @@ Watch only detached
 
 Welcome to the project page for the *Watch only detached* ZNC module!
 
+The functionality of this module has been added to the official watch module starting with ZNC 1.6.
+
+See https://github.com/znc/znc/pull/388 and https://github.com/znc/znc/issues/641
+
 
 What is it?
 -----------
